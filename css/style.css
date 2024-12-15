@@ -1,0 +1,386 @@
+  body {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 145%;
+    color: #122659;
+    margin: 0;
+ }  
+ .site-navigation {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+ }
+ .site-navigation-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-right: auto;
+ }
+ .logo {
+    width: 143px;
+    height: 23px;
+    margin: 0;
+    margin-right: 57px;
+ }
+.phone-icon {
+    width: 15px;
+    display: block;
+}
+ .site-navigation-list a {
+    line-height: 140%;
+    color: #122659;
+    text-decoration: none;
+ } 
+ .phone {
+    font-weight: 500;
+    font-style: 18px;
+    line-height: 140%;
+    color: #122659;
+    text-decoration: none;
+    margin-left: 10px;
+ }
+ .hero {
+    background-image: url(../img/main-photo.png);
+    background-repeat: no-repeat;
+    width: 970px;
+    height: 512px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    padding-left: 198px;
+    padding-right: 198px;
+ }
+ .hero h1 {
+    font-family: "Rubik";
+    font-size: 42px;
+    line-height: 130%;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 136px;
+ }
+ .hero .audience {
+    font-family: "Rubik";
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+ }
+ .hero .description {
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 45px;
+ }
+ .signup {
+    line-height: 140%;
+    font-weight: 500;
+    text-decoration: none;
+    color: #122659;
+    border: none;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 13px 35px 15px 35px;
+
+ }
+ .btn-yellow {
+    background-color: #FFD787;
+  }
+.btn-green {
+    background-color: #8DD9E5;
+}
+.btn-pink {
+    background-color: #FEB9CC;
+}
+ .advantages {
+    background-image: url(../img/girl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 931px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+ }
+ .advantages h2 {
+    font-family: "Rubik";
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: 500;
+    text-align: center;
+ }
+.advantages h3 {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+}
+.groups {
+    background-image: url(../img/back-1.png);
+    background-repeat: no-repeat;
+    width: 1366px;
+    min-height: 803px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.group-container {
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.group-description {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 183px;
+    margin-bottom: 57px;
+}
+.group-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    flex-wrap: wrap;
+}
+.group-list-item {
+    box-sizing: border-box;
+    width: 296px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 12px;
+}
+.item-1 {
+    border: 3px solid rgb(141, 217, 229);
+} 
+.item-2 {
+    border: 3px solid rgb(255, 215, 135);
+} 
+.item-3 {
+    border: 3px solid rgb(254, 185, 204);
+} 
+.groups h2 {
+    font-family: "Rubik";
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: 500;
+    width: 237px;
+    margin: 0;
+
+}
+.groups h3 {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.group-description p {
+    width: 298px;
+    margin: 0;
+}
+.group-list-item p {
+    line-height: 140%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.group-list .price {
+    margin-bottom: 30px;
+}
+.group-list-item .price-value {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+}
+.teachers {
+    width: 970px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    padding-right: 198px;
+    padding-left: 198px;
+    display: flex;
+    flex-direction: column;
+}
+.teachers-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+.teachers-description p {
+    width: 352px;
+    margin: 0;
+}
+.teachers-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.teachers-list-item {
+    box-sizing: border-box;
+    width: 220px;
+}
+.teachers h2 {
+    font-family: "Rubik";
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: 500;
+    width: 384px;
+    margin: 0;
+}
+.teachers-list-item h3 {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+}
+.teachers-list-item p {
+    color: #677085;
+    text-align: center;
+    margin: 0;
+}
+.arrows {
+    display: flex;
+    width: 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.trial {
+    background-image: url(../img/back-banner.png);
+    background-repeat: no-repeat;
+    width: 1366px;
+    height: 453px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+
+}
+.trial h2 {
+    font-family: "Rubik";
+    font-size: 36px;
+    line-height: 125%;
+    font-weight: 500;
+    text-align: center;
+    color: #FEFCFA;
+    margin: 0;
+    margin-bottom: 15px;
+    padding-top: 100px;
+}
+.trial p {
+    color: #FEFCFA;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+
+}
+.signup-wrapper {
+    width: 166px;
+    margin: 0 auto;
+}
+.trial .signup {
+    box-sizing: border-box;
+    width: 166px;
+}
+.map {
+    width: 1366px;
+    height: 611px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.contacts h2 {
+    font-family: "Rubik";
+    font-size: 36px;
+    line-height: 125%;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.contacts {
+    position: relative;
+}
+.contact-content {
+    width: 273px;
+    padding: 70px;
+    background-color: #F7FAFC;
+    border-radius: 12px;
+    position: absolute;
+    left: 198px;
+    top: -70px;
+}
+.contact-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contact-list-item {
+    margin-bottom: 15px;
+}
+.contact-list-item address {
+    margin: 0;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
+.contacts h3 {
+    font-size: 16px;
+    line-height: 145%;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.contact-list-item .worktime {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0;
+}
+.contact-phone {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #122659;
+    text-decoration: none;
+}
+.contact-email {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    color: #122659;
+    text-decoration: none;
+}
+.social-list {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.social-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.contacts-wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
